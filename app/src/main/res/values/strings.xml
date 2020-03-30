@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My First Java Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="full_name_kazeem_david">Full Name: Kazeem David</string>
+</resources>

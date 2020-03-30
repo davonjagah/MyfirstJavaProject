@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <EditText
+        android:id="@+id/txtFullName"
+        android:layout_width="310dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/full_name_kazeem_david"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtSlackUsername"
+        android:layout_width="345dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:width="800dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Slack Username: davon_jagah"
+        app:layout_constraintEnd_toEndOf="@+id/txtFullName"
+        app:layout_constraintTop_toBottomOf="@+id/txtFullName" />
+
+    <EditText
+        android:id="@+id/txtSlackEmail"
+        android:layout_width="347dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Slack Email: davonkaze1@gmail.com"
+        app:layout_constraintEnd_toEndOf="@+id/txtSlackUsername"
+        app:layout_constraintTop_toBottomOf="@+id/txtSlackUsername" />
+
+    <EditText
+        android:id="@+id/txtTracks"
+        android:layout_width="347dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Tracks: Mobile, Frontend, Coding"
+        app:layout_constraintEnd_toEndOf="@+id/txtSlackEmail"
+        app:layout_constraintTop_toBottomOf="@+id/txtSlackEmail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
